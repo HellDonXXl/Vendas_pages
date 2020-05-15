@@ -1,0 +1,318 @@
+<!--- ...----> <!---define um comentário--->
+<!DOCTYPE html> 
+<!--- Define o tipo de documento----> 
+<html>
+
+ <head lang="pt-br"> <!--- para saber que é Br --->
+   
+  <title>Mokotorto</title>
+  <meta CHARSET = "UTF-8"> 
+  <meta  name="description" content="Um site onde você pode encontra as melhores ferraris"                                ><!---descrição --->
+  <meta  name="keywords"    content="Carros de luxo"                                ><!--- palavra chave  --->
+  <meta  name="robots"      content="index,follow"                     ><!--- indexar todos links que encontra na index  --->
+  <meta  name="author"      content="Rafael Donato"            ><!--- Nome dos criador --->   
+  <link rel="stylesheet" type="text/css" href ="CSS/style.css" media ="screen"        ><!--- css externo --->
+
+ </head>
+
+  <body>
+   <main>
+    <header>
+    	<a href="index.html"><div class="cabec"></div></a>
+
+    	<div class="carta"></div>
+
+    	<div class="nas">
+    		<div class="pesquisa">
+    			<input type="text" placeholder="o que você procura?">
+    			<button></button>
+    		</div>
+    		<div class="log"> 
+                 
+          <input type="checkbox"  id="btnMenu"> <!---criar um checkbox que vai da true/false  --->
+          <label for= "btnMenu" ><img src="IMGS/cadastro.png" id="fotoCadastro" title="Cadastro"></label>
+          <br> 
+            <div  class ="cadastrar">
+          <form name="form" method="get">
+		
+            <label>Nome: </label>
+			<input type="text" name="txtNome" placeholder="Digite o seu nome">
+			<br><br>
+			<label>E-mail: </label>
+			<input type="email" name="txtEmail">
+			<br><br>
+			<label>Senha:</label>
+			<input type="password" name="txtSenha">
+			<br><br>
+			<label>Celular:</label>
+			<input type="text" name="txtCelu">
+			<br><br>
+			<label>Rua:</label>
+			<input type="text" name="txtRua">
+			<br><br>
+			<label>Nº:</label>
+			<input type="number" name="txtNum">
+			<br><br>
+			<label>Estado:</label>
+			<select name="uf" >
+				<option value="">Selecione</option>
+				<option value="AC">Acre</option>
+				<option value="AL">Alagoas</option>
+				<option value="AP">Amapá</option>
+				<option value="AM">Amazonas</option>
+				<option value="BA">Bahia</option>
+				<option value="CE">Ceará</option>CE
+				<option value="DF">Distrito Federal</option>
+				<option value="ES">Espírito Santo</option>
+				<option value="GO">Goiás</option>
+				<option value="MA">Maranhão</option>
+				<option value="MT">Mato Grosso</option>
+				<option value="MS">Mato Grosso do Sul</option>
+				<option value="MG">Minas Gerais</option>
+				<option value="PA">Pará </option>
+				<option value="PB">Paraíba</option>
+				<option value="PR">Paraná</option>
+				<option value="PE">Pernambuco</option>
+				<option value="PI">Piauí </option>
+				<option value="RJ">Rio de Janeiro</option>
+				<option value="RN">Rio Grande do Norte</option>
+				<option value="RS">Rio Grande do Sul</option>
+				<option value="RO">Rondônia</option>
+				<option value="RR">Roraima</option>
+				<option value="SC">Santa Catarina</option>
+				<option value="SP">São Paulo</option>
+				<option value="SE">Sergipe</option>
+				<option value="TO">Tocantins</option>
+
+			</select>
+			<br><br>
+			<label>Cidade:</label>
+			<input type="text" name="txtCidade">
+			<br><br>
+			<label>Data Nascimento:</label>
+			<input type="date" name="txtData"  required>
+			<br><br>
+		    <label>Genero:</label><br>
+			<radiogroup class="radiogroup" >
+			<input type="radio" name="sx" value="F" checked>Feminino<br>
+			<input type="radio" name="sx" value="M">Masculino<br>
+			<input type="radio" name="sx" value="O">Outros<br>
+			</radiogroup>
+		   <input type="submit" name="btnCadastrar" value ="Enviar">
+			
+
+		
+
+
+          
+
+          </form>
+    		<br>
+
+             
+               </div>
+
+
+    		</div>
+
+    		<div class="log1"><input type="checkbox" id="btnMenu1"> <!---criar um checkbox que vai da true/false  --->
+          <label for= "btnMenu1" ><img src="IMGS/log.png" id="fotoCadastro" title="Login"></label>
+          <br>
+            <div class="Load">
+              <form name="form1" method="get">
+              
+            <label>E-mail/Usuário: </label>
+			<input type="email" name="txtEmail">
+			<br><br>
+			<label>Senha:</label>
+			<input type="password" name="txtSenha">
+			<br><br>
+			<input type="submit" name="btnCadastrar" value ="Entrar">
+
+
+
+
+               </form>   
+               </div>
+
+        </div>
+        <div class="log2">
+        	<input type="checkbox" id="btnMenu2"> 
+   <label for= "btnMenu2"><img src="IMGS/menu.png" id="fotoCadastro" title="Produtos"></label>
+   <nav class="menu"><!-- área de navegação web   --->
+   	 
+   	 <ul>
+   	 	<li><a href="index.html">Início</a></li>
+   	 	<li><a href="FERRARICALIFORNIA.html">FERRARI CALIFORNIA</a></li>
+   	 	<li><a href="FERRARI488GTB.html">FERRARI 488 GTB</a></li>
+   	 	<li><a href="FERRARIF360.html">FERRARI F360</a></li>
+   	 	<li><a href="FERRARIF430.html">FERRARI F430</a></li>
+   	 	<li><a href="FERRARI458ITALIA.html">FERRARI 458 ITALIA</a></li>
+   	 	<li><a href="FERRARI458SPIDER.html">FERRARI 458 SPIDER</a></li>
+      <li><a href="FERRARIF355.html">FERRARI F355</a></li>
+      <li><a href="FERRARIF12BERLINETTA.html">FERRARI F12BERLINETTA</a></li>
+
+
+
+
+   	 </ul>
+
+
+   </nav>
+
+
+
+        </div>
+
+ 
+     </div>
+
+    	<br class="limpa">
+    	 
+
+
+    </header>
+
+    
+    <div class = "corpo"> 
+       <div class = "produtos">
+       	  <section>
+       	  	<a href="FERRARICALIFORNIA.html">
+                <article>
+                    <figure>
+                        <img src="ferrari/ferrariCalifornia.jpg" alt="FERRARI CALIFORNIA">
+                        <figcaption>FERRARI CALIFORNIA</figcaption>
+                    </figure>     
+                    <h3>4.3 V8 GASOLINA F1-DCT</h3>
+                    <br>
+                    <h1>R$ 849.990</h1>
+                    <p>2010/2010 17185KM  </p>
+
+                </article>
+               </a>
+
+              <a href="FERRARI488GTB.html"> <article>
+                    <figure>
+                        <img src="ferrari/ferrari448GTB.jpg" alt="FERRARI 488 GTB">
+                        <figcaption>FERRARI 488 GTB</figcaption>
+                    </figure>     
+                    <h3>3.9 V8 TURBO GASOLINA F1-DCT</h3>
+                    <br>
+                    <h1>R$ 2.590.000</h1>
+                    <p>2018/2018 2.500KM  </p>
+
+                </article></a>
+
+
+                <a href="FERRARIF360.html"><article>
+                    <figure>
+                        <img src="ferrari/FERRARIF360.jpg" alt="FERRARI F360">
+                        <figcaption>FERRARI F360</figcaption>
+                    </figure>     
+                    <h3>3.6 F1 MODENA V8 40V GASOLINA 2P AUTOMÁTICO</h3>
+                    <br>
+                    <h1>R$ 429.999</h1>
+                    <p>2000/2000 70.000KM  </p>
+
+                </article></a>
+
+
+
+                 <a href="FERRARIF430.html"><article>
+                    <figure>
+                        <img src="ferrari/FERRARIF430.jpg" alt="FERRARI F430">
+                        <figcaption>FERRARI F430</figcaption>
+                    </figure>     
+                    <h3>4.3 SPIDER V8 40V GASOLINA 2P AUTOMÁTICO</h3>
+                    <br>
+                    <h1>R$ 789.990</h1>
+                    <p>2009/2009 25.000KM  </p>
+
+                </article></a>
+
+                <a href="FERRARI458ITALIA.html"><article>
+                    <figure>
+                        <img src="ferrari/FERRARI458ITALIA.jpg" alt="FERRARI 458 ITALIA">
+                        <figcaption>FERRARI 458 ITALIA</figcaption>
+                    </figure>     
+                    <h3>4.5 V8 GASOLINA F1-DCT</h3>
+                    <br>
+                    <h1>R$ 1.490.000</h1>
+                    <p>2013/2014 11.500KM  </p>
+
+                </article></a>
+
+                
+
+                 <a href="FERRARI458SPIDER.html"><article>
+                    <figure>
+                        <img src="ferrari/FERRARI458SPIDER.jpg" alt="FERRARI 458 SPIDER">
+                        <figcaption>FERRARI 458 SPIDER</figcaption>
+                    </figure>     
+                    <h3>4.5 V8 GASOLINA F1-DCT</h3>
+                    <br>
+                    <h1>R$ 1.700.000</h1>
+                    <p>2014/2015 5.000KM  </p>
+
+                </article></a>
+
+               <a href="FERRARIF355.html"><article>
+                    <figure>
+                        <img src="ferrari/FERRARIF355.jpg" alt="FERRARI F355">
+                        <figcaption>FERRARI F355</figcaption>
+                    </figure>     
+                    <h3>BERLINETA GASOLINA 2P MANUAL</h3>
+                    <br>
+                    <h1>R$ 650.000</h1>
+                    <p>1994/1995 19.600KM  </p>
+
+                </article></a>
+
+                <a href="FERRARIF12BERLINETTA.html"> <article>
+                    <figure>
+                        <img src="ferrari/FERRARIF12BERLINETTA.jpg" alt="FERRARI F12BERLINETTA">
+                        <figcaption>FERRARI F12BERLINETTA</figcaption>
+                    </figure>     
+                    <h3>6.3 V12 GASOLINA F1-DC</h3>
+                    <br>
+                    <h1>R$ 2.200.000</h1>
+                    <p>2013/2013 3.800KM  </p>
+
+                </article>
+                
+             
+                
+                
+            </section>
+            <br class="limpa">
+
+
+
+
+
+
+
+
+
+       </div>
+
+
+         <div class="anuncio"> 
+         	<a href="http://www.burgerking.com.br/menu-item/mega-stacker-at%C3%B4mico-40"><img src="anuncio/bKAnucio.jpg"></a>
+         	 <br>
+         	  <a href="https://www.mcdonalds.com.br/novidades/3x3"><img src="anuncio/mcAnucio.jpg"></a>
+           </div>
+
+ 
+
+ 
+    </div>
+       <br class="limpa">
+
+
+
+<footer><h1>Rafael Marcos Alves Donato</h1></footer>
+   	
+   </main>
+</body>
+</html>
